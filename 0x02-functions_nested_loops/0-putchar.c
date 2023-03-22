@@ -1,16 +1,12 @@
 #include "main.h"
 
 /**
- * main -  function is the entry point of the program
+ * main - Prints "_putchar" followed by a new line.
  *
- * Returns: 0 if the program ends successfully
- * main -  prints _putchar, followed by a new line
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
-	char *message = "_putchar";
-	_putchar(message);
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
